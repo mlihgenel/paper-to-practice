@@ -1,0 +1,25 @@
+model,img,dil,cevap,sure
+224,c06,tr,Ağaçların ve bitkilerin yanında bir sokakta bir lion statue.,1.3968567848205566
+224,c06,en,An outdoor view of a statue of a golden lion sitting on a brown pedestal. The lion is facing to the right and is sitting on a brown platform. The statue is placed on a walkway that is made up of red and brown square tiles. There is a green metal pole that has a black sign attached to it.,3.47017240524292
+224,c10,tr,Ağaçların ve sokak işaretlerinin olduğu bir şehir caddesi.,1.398681402206421
+224,c10,en,"A view of a street corner with a sign on the left that says ""Sağlar Merkezi"" and ""Karşılama Merkezi"" on it. The sign is white with a brown border. There is a black arrow on the right pointing down and a black arrow on the left pointing up. Under it,",3.9680421352386475
+224,c23,tr,"In this image we can see a sign board to the tree. We can see the vehicles on the road. In the background, we can see the buildings, trees and the sky.",2.3292839527130127
+224,c23,en,a sign on a tree that says 'bayat ekmek askiisi',1.3989500999450684
+224,c31,tr,Ince balıklarla dolu büyük bir kırmızı kap.,1.1270954608917236
+224,c31,en,A red bucket filled with dead fish for sale.,1.1453654766082764
+224,c41,tr,Ince hamur işleri ile bir standın arkasında duran bir adam.,1.4048781394958496
+224,c41,en,a man in a store with the word tavuk above him,1.2239396572113037
+224,c46,tr,"In this image we can see a group of people standing on the floor. One person is holding a plastic cover. In the foreground we can see a group of food items placed in the plastic boxes. In the background, we can see a group of bottles placed on the table.",3.628751039505005
+224,c46,en,a grocery store with a sign on the wall that says 'no smoking',1.3488926887512207
+448,c06,tr,"Ağaçların ve bir tabelanın yanında oturan büyük bir golden statue. The statue is sitting on a brown base, the statue is facing to the right, the legs are bent, the front paws are touching the ground. The statue is golden, the base is red brick, the ground is wet and there is",5.596631050109863
+448,c06,en,"A view of a statue of a lion sitting on a stone pedestal. The statue is facing to the left. The pedestal has a chain hanging down from it. The lion is golden. Snow is around the base of the pedestal. A green sign is attached to a green pole. The sign has ""FRADOL /",5.542968273162842
+448,c10,tr,"Ağaçların ve insanların olduğu bir şehir caddesi. 2 white street signs with black text and arrows on them, the one on the right says ""Şehir Merkezi / Konya Selimiye Caddesi / Universitesi"", the one on the left says ""Mevlana Cadd",5.8055360317230225
+448,c10,en,"A street sign with a tree in front of it. The sign has a white background with black text and a brown arrow pointing up. The text reads ""Şehir Merkezi"" and the arrow points to the left. There are people walking on the sidewalk and a car is parked on the street. The tree has",5.618334054946899
+448,c23,tr,"a white sign that says ""bayat ekmek askisi"" hangs from a tree.",3.8653128147125244
+448,c23,en,a sign that says bayat ekmek askisi is hanging on a tree,3.5012311935424805
+448,c31,tr,Invertebrate food is for sale in a red bucket.,3.317866325378418
+448,c31,en,a red bucket full of fish for sale with a sign that says hamsi 4 mtl.,3.7134251594543457
+448,c41,tr,Ağzı açık bir adamın önünde bir çeşit yiyecek var.,3.5374724864959717
+448,c41,en,a man stands behind a counter in a store with a sign that says beypazarı kurusu.,3.758948564529419
+448,c46,tr,Ağzında mavi bir şey tutan bir kadın,3.3356940746307373
+448,c46,en,a grocery store with a sign that says extra virgin olive oil.,3.5921573638916016

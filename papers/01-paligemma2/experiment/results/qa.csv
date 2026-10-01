@@ -1,0 +1,217 @@
+model,dil,qid,img,boy,tip,soru,gold,cevap,kati,esnek,sure
+224,tr,q00,c01,büyük,text,Tabelada ne yazıyor?,['acil servis'],acil servis emergency,1,1,1.1143255233764648
+224,en,q00,c01,büyük,text,What does the sign say?,['acil servis'],acil servis emergency,1,1,1.2546753883361816
+224,tr,q01,c02,büyük,text,Tabelada ne yazıyor?,['acil çıkış'],acil cikis,0,1,1.0054945945739746
+224,en,q01,c02,büyük,text,What does the sign say?,['acil çıkış'],acil cikis,0,1,1.1037843227386475
+224,tr,q02,c03,büyük,num,Sokağın numarası kaç?,[2151],2151,1,1,0.8199548721313477
+224,en,q02,c03,büyük,num,What is the street number?,[2151],2151,1,1,0.8341307640075684
+224,tr,q03,c03,küçük,text,Hangi mahallede?,['camiatik'],camlik,0,0,0.728691816329956
+224,en,q03,c03,küçük,text,Which neighborhood is this?,['camiatik'],camarat,0,0,0.8303229808807373
+224,tr,q04,c04,büyük,text,Bu terminal hangi şehirde?,['aydın'],istanbul,0,0,0.6739253997802734
+224,en,q04,c04,büyük,text,Which city is this terminal in?,['aydın'],istanbul,0,0,0.6593096256256104
+224,tr,q05,c05,büyük,text,Caddenin adı ne?,['fatih sultan'],fatih sultan mehmet caddesi,1,1,0.9927058219909668
+224,en,q05,c05,büyük,text,What is the name of the street?,['fatih sultan'],fatih sultan mehmet caddesi,1,1,0.9634823799133301
+224,tr,q06,c05,küçük,text,Hangi mahallede?,['pazar'],parar,0,0,0.7012057304382324
+224,en,q06,c05,küçük,text,Which neighborhood is this?,['pazar'],mehmet caddesi,0,0,0.8016993999481201
+224,tr,q07,c07,büyük,text,Sokağın adı ne?,['türkü'],turko sokağı,0,0,0.8458096981048584
+224,en,q07,c07,büyük,text,What is the name of the street?,['türkü'],turko soka,0,0,0.7969577312469482
+224,tr,q08,c09,büyük,text,Sokağın adı ne?,['köprülü mehmet paşa'],koprulu memet paşa sokağı,0,0,1.065293550491333
+224,en,q08,c09,büyük,text,What is the name of the street?,['köprülü mehmet paşa'],koprulu memet pasa sokak,0,0,0.9748563766479492
+224,tr,q09,c09,küçük,text,Hangi mahallede?,['kökçüoğlu'],koçboğlu,0,0,0.8437340259552002
+224,en,q09,c09,küçük,text,Which neighborhood is this?,['kökçüoğlu'],koprulu,0,0,0.8134567737579346
+224,tr,q10,c10,küçük,text,Düz gidersem nereye varırım?,['şehir merkezi'],sahin merkezi,0,0,0.8030195236206055
+224,en,q10,c10,küçük,text,Where does the straight arrow lead?,['şehir merkezi'],left,0,0,0.6801650524139404
+224,tr,q11,c15,büyük,text,Caddenin adı ne?,['kazım karabekir'],kazim karagokir,0,0,1.0020461082458496
+224,en,q11,c15,büyük,text,What is the name of the avenue?,['kazım karabekir'],kazim karagokir,0,0,0.8848519325256348
+224,tr,q12,c17,büyük,text,Alttaki tabelada ne yazıyor?,['park etmek yasak'],bu alana park etmek yasaktir,1,1,1.0407893657684326
+224,en,q12,c17,büyük,text,What does the lower sign say?,['park etmek yasak'],bu alana park etmek yasaktir,1,1,1.0423433780670166
+224,tr,q13,c17,büyük,text,Caddenin adı ne?,['vali muammerbey'],vali muammer gey,0,0,0.9085907936096191
+224,en,q13,c17,büyük,text,What is the name of the avenue?,['vali muammerbey'],vali muammer,0,0,0.8216211795806885
+224,tr,q14,c18,büyük,text,Sokağın adı ne?,['reşat nuri güntekin'],reşat nuri guntekin sokağı,0,1,1.120086669921875
+224,en,q14,c18,büyük,text,What is the name of the street?,['reşat nuri güntekin'],reşat nuri guntekin,0,1,0.9964590072631836
+224,tr,q15,c19,büyük,text,Büyük harflerle hangi yerin adı yazıyor?,['çınarcık'],cinarcik,0,1,0.7827677726745605
+224,en,q15,c19,büyük,text,Which place name is written in big letters?,['çınarcık'],cinarcik,0,1,0.7881708145141602
+224,tr,q16,c19,küçük,text,Büyük yazının altında ne yazıyor?,['marmaranın incisi'],marmaran'ın ingisi,0,0,0.9411826133728027
+224,en,q16,c19,küçük,text,What is written below the big letters?,['marmaranın incisi'],marmaran'in ingisi,0,0,1.0406239032745361
+224,tr,q17,c20,büyük,text,Dükkanın adı ne?,['akçay makine'],akcay makine,0,1,0.8655147552490234
+224,en,q17,c20,büyük,text,What is the name of the shop?,['akçay makine'],akcay makine,0,1,0.9286296367645264
+224,tr,q18,c20,büyük,text,Telefon numarası ne?,['546 33 36'],546 33 36,1,1,1.051814079284668
+224,en,q18,c20,büyük,text,What is the phone number?,['546 33 36'],546 33 36,1,1,1.0608782768249512
+224,tr,q19,c21,büyük,text,Işıklı tabelada ne yazıyor?,['balaban emlak'],balaban emek,0,0,0.8375585079193115
+224,en,q19,c21,büyük,text,What does the illuminated sign say?,['balaban emlak'],balaban emlak,1,1,0.8326516151428223
+224,tr,q20,c21,küçük,text,Sigorta şirketinin adı ne?,['anadolu sigorta'],anadolu sigorta,1,1,0.8746552467346191
+224,en,q20,c21,küçük,text,What is the name of the insurance company?,['anadolu sigorta'],studio,0,0,0.7120821475982666
+224,tr,q21,c23,büyük,text,Tabelada ne yazıyor?,['bayat ekmek askısı'],bayat ekmek askiisi,0,0,0.9643778800964355
+224,en,q21,c23,büyük,text,What does the sign say?,['bayat ekmek askısı'],unanswerable,0,0,0.7984223365783691
+224,tr,q22,c24,büyük,text,Tabelada ne yazıyor?,['dikkat hareket eden raylı yürüme yolu'],dikkat hareket eden raylı yürüme yolu,1,1,1.2079811096191406
+224,en,q22,c24,büyük,text,What does the sign say?,['dikkat hareket eden raylı yürüme yolu'],dikkat hareket eden rayli yurume yolu,0,1,1.2350587844848633
+224,tr,q23,c25,küçük,text,En alttaki okta en son hangi yer yazıyor?,['26 ağustos kapısı'],egemenlik caddesi,0,0,1.0742177963256836
+224,en,q23,c25,küçük,text,What is the last place written on the bottom arrow?,['26 ağustos kapısı'],egeia,0,0,0.8471295833587646
+224,tr,q24,c26,büyük,text,Burada ne yasak?,['sigara'],sigara içilmez,1,1,1.0124411582946777
+224,en,q24,c26,büyük,text,What is forbidden here?,['sigara'],smoking,0,0,0.7207174301147461
+224,tr,q25,c26,küçük,num,Kaç sayılı kanundan bahsediliyor?,[4207],2,0,0,0.7207248210906982
+224,en,q25,c26,küçük,num,Which law number is mentioned?,[4207],743,0,0,0.8179917335510254
+224,tr,q26,c28,büyük,text,Firmanın adı ne?,['dağhan'],daghan,0,1,0.763146162033081
+224,en,q26,c28,büyük,text,What is the name of the company?,['dağhan'],daghan,0,1,0.7833561897277832
+224,tr,q27,c29,küçük,text,Binanın adı ne?,['fazıl kadı'],1,0,0,0.7309360504150391
+224,en,q27,c29,küçük,text,What is the name of the building?,['fazıl kadı'],unanswerable,0,0,0.8127038478851318
+224,tr,q28,c30,büyük,text,Kitabede hangi tarih yazıyor?,['29 mayıs 1453'],1521,0,0,0.8634312152862549
+224,en,q28,c30,büyük,text,What date is written on the plaque?,['29 mayıs 1453'],20 may 1938,0,0,1.0355172157287598
+224,tr,q29,c31,büyük,num,Hamsi kaç lira?,[4],4,1,1,0.7390975952148438
+224,en,q29,c31,büyük,num,How much is the hamsi?,[4],2,0,0,0.7494254112243652
+224,tr,q30,c32,küçük,num,G. Mağusa kaç km?,[55],34,0,0,0.7847669124603271
+224,en,q30,c32,küçük,num,How many km to G. Mağusa?,[55],34,0,0,0.8183181285858154
+224,tr,q31,c32,küçük,text,Tabeladaki ilk yer neresi?,['haspolat'],kiziley,0,0,0.8712072372436523
+224,en,q31,c32,küçük,text,What is the first place listed on the sign?,['haspolat'],kosovo,0,0,0.8362226486206055
+224,tr,q32,c36,büyük,num,Palamut kaç lira?,[5],5.75,0,0,0.8753676414489746
+224,en,q32,c36,büyük,num,How much is the palamut?,[5],3.75,0,0,0.8901529312133789
+224,tr,q33,c38,büyük,num,Somon kaç lira?,[8],"3,40",0,0,0.8839943408966064
+224,en,q33,c38,büyük,num,How much is the somon?,[8],3.75,0,0,0.889624834060669
+224,tr,q34,c40,büyük,text,Etikette hangi balığın adı yazıyor?,['alabalık'],alabalık,1,1,0.8468024730682373
+224,en,q34,c40,büyük,text,Which fish name is written on the label?,['alabalık'],alabama,0,0,0.8529868125915527
+224,tr,q35,c40,büyük,num,Etiketteki fiyat ne?,[7],7.4 tl,0,0,0.9066331386566162
+224,en,q35,c40,büyük,num,What is the price on the label?,[7],7.47,0,0,0.9066219329833984
+224,tr,q36,c41,büyük,num,Beypazarı kurusunun fiyatı ne?,[14.9],1.49 tl,0,0,0.9371602535247803
+224,en,q36,c41,büyük,num,What is the price of the Beypazarı kurusu?,[14.9],1.49,0,0,0.8992834091186523
+224,tr,q37,c43,küçük,num,Tulumba kaç lira?,[12],12,1,1,0.8208208084106445
+224,en,q37,c43,küçük,num,How much is the tulumba?,[12],12.00,1,1,1.037261962890625
+224,tr,q38,c44,küçük,num,Londra kaç km uzaklıkta?,[2502],895 km,0,0,0.9569556713104248
+224,en,q38,c44,küçük,num,How far is London in km?,[2502],893,0,0,0.9782092571258545
+224,tr,q39,c44,küçük,num,Moskova kaç km uzaklıkta?,[1757],1437 km,0,0,0.9696357250213623
+224,en,q39,c44,küçük,num,How far is Moscow in km?,[1757],1200,0,0,0.9384641647338867
+224,tr,q40,c45,büyük,text,Tabelada Türkçe ne yazıyor?,['askeri güvenlik bölgesi'],askeri güvenlik bölgesi girmez,1,1,1.1042203903198242
+224,en,q40,c45,büyük,text,What does the Turkish text on the sign say?,['askeri güvenlik bölgesi'],askeri gvenlik bolgesi girilmez,0,0,1.1911811828613281
+224,tr,q41,c47,küçük,text,Hamamın adı ne?,['cağaloğlu'],hamam ofisleri,0,0,0.970928430557251
+224,en,q41,c47,küçük,text,What is the name of the hamam?,['cağaloğlu'],cabrera,0,0,0.8864696025848389
+224,tr,q42,c47,küçük,num,Hamam hangi yıl kurulmuş?,[1741],1650,0,0,0.9363977909088135
+224,en,q42,c47,küçük,num,In which year was the hamam founded?,[1741],1629,0,0,0.9547765254974365
+224,tr,q43,c48,büyük,text,Hangi şehrin adı yazıyor?,['istanbul'],istanbul,1,1,0.8137521743774414
+224,en,q43,c48,büyük,text,Which city name is written?,['istanbul'],istanbul,1,1,0.8182272911071777
+224,tr,q44,c49,büyük,num,Soslu mısır kaç lira?,[14],14.00,1,1,1.059330701828003
+224,en,q44,c49,büyük,num,How much is the soslu mısır?,[14],14.00,1,1,1.0481281280517578
+224,tr,q45,c49,büyük,num,Elit karışık kaç lira?,[25],25,1,1,0.9033732414245605
+224,en,q45,c49,büyük,num,How much is the elit karışık?,[25],25.00,1,1,0.9951512813568115
+224,tr,q46,c50,küçük,num,Yaprak kayısı kaç lira?,[27.9],1.50,0,0,0.9491128921508789
+224,en,q46,c50,küçük,num,How much is the yaprak kayısı?,[27.9],1.50,0,0,0.9589178562164307
+224,tr,q47,c00,küçük,text,Tabelada hangi ilçe yazıyor?,['esenler'],istanbul,0,0,0.8189668655395508
+224,en,q47,c00,küçük,text,Which district is written on the sign?,['esenler'],12,0,0,0.8689258098602295
+224,tr,q48,c00,küçük,text,Askı ilanı başlangıç tarihi ne?,['26.08.2020'],2014/07/01,0,0,1.2152535915374756
+224,en,q48,c00,küçük,text,What is the start date of the notice?,['26.08.2020'],27/05/2014,0,0,1.1967029571533203
+224,tr,q49,c06,küçük,text,Yön tabelasında ne yazıyor?,['gondol'],veya,0,0,0.8603072166442871
+224,en,q49,c06,küçük,text,What does the direction sign say?,['gondol'],one way,0,0,0.8597800731658936
+224,tr,q50,c08,küçük,text,Panonun başlığı ne?,['kurtuluş yolu'],kurucu askeri anıt,0,0,1.0812287330627441
+224,en,q50,c08,küçük,text,What is the title of the board?,['kurtuluş yolu'],kurucu as vura,0,0,1.1311407089233398
+224,tr,q51,c14,küçük,text,Restoranın adı ne?,['saklı ev'],antalya,0,0,0.8834147453308105
+224,en,q51,c14,küçük,text,What is the name of the restaurant?,['saklı ev'],antaka,0,0,0.8401780128479004
+224,tr,q52,c42,büyük,text,Kafenin adı ne?,"[""robert's coffee"", 'roberts coffee']",robert's coffee,1,1,0.9245061874389648
+224,en,q52,c42,büyük,text,What is the name of the cafe?,"[""robert's coffee"", 'roberts coffee']",robert's coffee,1,1,0.9208588600158691
+224,tr,q53,c33,küçük,text,Mavi tabelada ne yazıyor?,['adsl'],adsl,1,1,0.8353855609893799
+224,en,q53,c33,küçük,text,What does the blue sign say?,['adsl'],adsl,1,1,0.832761287689209
+448,tr,q00,c01,büyük,text,Tabelada ne yazıyor?,['acil servis'],acil servis emergency,1,1,3.183372974395752
+448,en,q00,c01,büyük,text,What does the sign say?,['acil servis'],acil servis emergency,1,1,3.2094671726226807
+448,tr,q01,c02,büyük,text,Tabelada ne yazıyor?,['acil çıkış'],acil cikis,0,1,3.330272674560547
+448,en,q01,c02,büyük,text,What does the sign say?,['acil çıkış'],acil cikis,0,1,3.3320441246032715
+448,tr,q02,c03,büyük,num,Sokağın numarası kaç?,[2151],2151,1,1,3.367602586746216
+448,en,q02,c03,büyük,num,What is the street number?,[2151],2151,1,1,3.393901824951172
+448,tr,q03,c03,küçük,text,Hangi mahallede?,['camiatik'],camiatik mahalle,1,1,3.47792387008667
+448,en,q03,c03,küçük,text,Which neighborhood is this?,['camiatik'],sokak,0,0,3.226412534713745
+448,tr,q04,c04,büyük,text,Bu terminal hangi şehirde?,['aydın'],unanswerable,0,0,3.188660144805908
+448,en,q04,c04,büyük,text,Which city is this terminal in?,['aydın'],unanswerable,0,0,3.1349236965179443
+448,tr,q05,c05,büyük,text,Caddenin adı ne?,['fatih sultan'],fatih sultan mehmet caddesi,1,1,3.422497034072876
+448,en,q05,c05,büyük,text,What is the name of the street?,['fatih sultan'],fatih sultan,1,1,3.0616114139556885
+448,tr,q06,c05,küçük,text,Hangi mahallede?,['pazar'],pazar mahallesi,1,1,3.0533688068389893
+448,en,q06,c05,küçük,text,Which neighborhood is this?,['pazar'],unanswerable,0,0,2.962677240371704
+448,tr,q07,c07,büyük,text,Sokağın adı ne?,['türkü'],turku sokak,0,1,3.001304864883423
+448,en,q07,c07,büyük,text,What is the name of the street?,['türkü'],turku sokak,0,1,2.957274913787842
+448,tr,q08,c09,büyük,text,Sokağın adı ne?,['köprülü mehmet paşa'],koprulu,0,0,2.8927574157714844
+448,en,q08,c09,büyük,text,What is the name of the street?,['köprülü mehmet paşa'],koprulu mehmet pasa sokak,0,1,3.1066226959228516
+448,tr,q09,c09,küçük,text,Hangi mahallede?,['kökçüoğlu'],kokcuoglu,0,1,2.9169373512268066
+448,en,q09,c09,küçük,text,Which neighborhood is this?,['kökçüoğlu'],koprulu,0,0,2.9122366905212402
+448,tr,q10,c10,küçük,text,Düz gidersem nereye varırım?,['şehir merkezi'],sahir merkezi,0,0,2.9323127269744873
+448,en,q10,c10,küçük,text,Where does the straight arrow lead?,['şehir merkezi'],muhafaza,0,0,2.9284827709198
+448,tr,q11,c15,büyük,text,Caddenin adı ne?,['kazım karabekir'],kazim karabekir,0,1,3.0584194660186768
+448,en,q11,c15,büyük,text,What is the name of the avenue?,['kazım karabekir'],unanswerable,0,0,2.8999438285827637
+448,tr,q12,c17,büyük,text,Alttaki tabelada ne yazıyor?,['park etmek yasak'],bu alana park etmek yasaktir,1,1,3.130258083343506
+448,en,q12,c17,büyük,text,What does the lower sign say?,['park etmek yasak'],bu alana park etmek yasaktir,1,1,3.1951730251312256
+448,tr,q13,c17,büyük,text,Caddenin adı ne?,['vali muammerbey'],vali muammer bey,1,1,3.147587776184082
+448,en,q13,c17,büyük,text,What is the name of the avenue?,['vali muammerbey'],vali muammerbey,1,1,3.0749473571777344
+448,tr,q14,c18,büyük,text,Sokağın adı ne?,['reşat nuri güntekin'],resat nuri guntekin sokak,0,1,3.2737576961517334
+448,en,q14,c18,büyük,text,What is the name of the street?,['reşat nuri güntekin'],resat nuri guntekin sokak,0,1,3.289811372756958
+448,tr,q15,c19,büyük,text,Büyük harflerle hangi yerin adı yazıyor?,['çınarcık'],cinarcik,0,1,3.075291872024536
+448,en,q15,c19,büyük,text,Which place name is written in big letters?,['çınarcık'],cinarcik,0,1,3.0506227016448975
+448,tr,q16,c19,küçük,text,Büyük yazının altında ne yazıyor?,['marmaranın incisi'],marmaranın inisi,0,0,3.15653920173645
+448,en,q16,c19,küçük,text,What is written below the big letters?,['marmaranın incisi'],marmaranin incisi,0,1,3.163592576980591
+448,tr,q17,c20,büyük,text,Dükkanın adı ne?,['akçay makine'],akcay makine,0,1,3.1798274517059326
+448,en,q17,c20,büyük,text,What is the name of the shop?,['akçay makine'],akcay makine,0,1,3.11830472946167
+448,tr,q18,c20,büyük,text,Telefon numarası ne?,['546 33 36'],546 33 36,1,1,3.3496856689453125
+448,en,q18,c20,büyük,text,What is the phone number?,['546 33 36'],546 33 36,1,1,3.314727306365967
+448,tr,q19,c21,büyük,text,Işıklı tabelada ne yazıyor?,['balaban emlak'],balaban emlak,1,1,3.1298515796661377
+448,en,q19,c21,büyük,text,What does the illuminated sign say?,['balaban emlak'],balaban emlak,1,1,3.0889503955841064
+448,tr,q20,c21,küçük,text,Sigorta şirketinin adı ne?,['anadolu sigorta'],balaban,0,0,2.9795336723327637
+448,en,q20,c21,küçük,text,What is the name of the insurance company?,['anadolu sigorta'],balaban,0,0,2.968162775039673
+448,tr,q21,c23,büyük,text,Tabelada ne yazıyor?,['bayat ekmek askısı'],bayat ekmek askisi,0,1,3.1977884769439697
+448,en,q21,c23,büyük,text,What does the sign say?,['bayat ekmek askısı'],bayat ekmek askisi,0,1,3.135319232940674
+448,tr,q22,c24,büyük,text,Tabelada ne yazıyor?,['dikkat hareket eden raylı yürüme yolu'],dikkat hareket eden rayli yurume yolu,0,1,3.472581624984741
+448,en,q22,c24,büyük,text,What does the sign say?,['dikkat hareket eden raylı yürüme yolu'],dikkat hareket eden rayli yurume yolu,0,1,3.481607675552368
+448,tr,q23,c25,küçük,text,En alttaki okta en son hangi yer yazıyor?,['26 ağustos kapısı'],26 augustos kapisi,0,0,3.2277584075927734
+448,en,q23,c25,küçük,text,What is the last place written on the bottom arrow?,['26 ağustos kapısı'],26 augusto,0,0,3.042388439178467
+448,tr,q24,c26,büyük,text,Burada ne yasak?,['sigara'],sigara,1,1,2.9336953163146973
+448,en,q24,c26,büyük,text,What is forbidden here?,['sigara'],smoking,0,0,2.8865842819213867
+448,tr,q25,c26,küçük,num,Kaç sayılı kanundan bahsediliyor?,[4207],4207,1,1,3.0684213638305664
+448,en,q25,c26,küçük,num,Which law number is mentioned?,[4207],4207,1,1,3.0237631797790527
+448,tr,q26,c28,büyük,text,Firmanın adı ne?,['dağhan'],daghan,0,1,2.9312541484832764
+448,en,q26,c28,büyük,text,What is the name of the company?,['dağhan'],daghan,0,1,2.93391489982605
+448,tr,q27,c29,küçük,text,Binanın adı ne?,['fazıl kadı'],unanswerable,0,0,3.0383026599884033
+448,en,q27,c29,küçük,text,What is the name of the building?,['fazıl kadı'],unanswerable,0,0,3.0003139972686768
+448,tr,q28,c30,büyük,text,Kitabede hangi tarih yazıyor?,['29 mayıs 1453'],1453,0,0,3.030285358428955
+448,en,q28,c30,büyük,text,What date is written on the plaque?,['29 mayıs 1453'],1453,0,0,3.0290887355804443
+448,tr,q29,c31,büyük,num,Hamsi kaç lira?,[4],4,1,1,2.9264683723449707
+448,en,q29,c31,büyük,num,How much is the hamsi?,[4],4,1,1,2.9089553356170654
+448,tr,q30,c32,küçük,num,G. Mağusa kaç km?,[55],35,0,0,2.9552454948425293
+448,en,q30,c32,küçük,num,How many km to G. Mağusa?,[55],35,0,0,2.958061456680298
+448,tr,q31,c32,küçük,text,Tabeladaki ilk yer neresi?,['haspolat'],haşapali,0,0,3.03989315032959
+448,en,q31,c32,küçük,text,What is the first place listed on the sign?,['haspolat'],hostel,0,0,2.962658405303955
+448,tr,q32,c36,büyük,num,Palamut kaç lira?,[5],5.47,0,0,3.0501036643981934
+448,en,q32,c36,büyük,num,How much is the palamut?,[5],5.77,0,0,3.044682025909424
+448,tr,q33,c38,büyük,num,Somon kaç lira?,[8],8,1,1,2.9226126670837402
+448,en,q33,c38,büyük,num,How much is the somon?,[8],8,1,1,2.9551923274993896
+448,tr,q34,c40,büyük,text,Etikette hangi balığın adı yazıyor?,['alabalık'],alabalık,1,1,3.031296491622925
+448,en,q34,c40,büyük,text,Which fish name is written on the label?,['alabalık'],alabalik,0,1,3.016981840133667
+448,tr,q35,c40,büyük,num,Etiketteki fiyat ne?,[7],7.4 tl,0,0,3.0661752223968506
+448,en,q35,c40,büyük,num,What is the price on the label?,[7],7.4,0,0,3.0469138622283936
+448,tr,q36,c41,büyük,num,Beypazarı kurusunun fiyatı ne?,[14.9],19.90,0,0,3.098501205444336
+448,en,q36,c41,büyük,num,What is the price of the Beypazarı kurusu?,[14.9],19.90,0,0,3.0848052501678467
+448,tr,q37,c43,küçük,num,Tulumba kaç lira?,[12],12,1,1,2.9720892906188965
+448,en,q37,c43,küçük,num,How much is the tulumba?,[12],12,1,1,3.00656795501709
+448,tr,q38,c44,küçük,num,Londra kaç km uzaklıkta?,[2502],2502,1,1,3.0656299591064453
+448,en,q38,c44,küçük,num,How far is London in km?,[2502],2502,1,1,3.0441641807556152
+448,tr,q39,c44,küçük,num,Moskova kaç km uzaklıkta?,[1757],1757,1,1,3.049076557159424
+448,en,q39,c44,küçük,num,How far is Moscow in km?,[1757],1757,1,1,3.086550712585449
+448,tr,q40,c45,büyük,text,Tabelada Türkçe ne yazıyor?,['askeri güvenlik bölgesi'],askeri güvenlik bölgesi girilmez,1,1,3.261847496032715
+448,en,q40,c45,büyük,text,What does the Turkish text on the sign say?,['askeri güvenlik bölgesi'],askeri guvenlik bolgesi girilmez,0,1,3.300875663757324
+448,tr,q41,c47,küçük,text,Hamamın adı ne?,['cağaloğlu'],cagalolu,0,0,2.9959840774536133
+448,en,q41,c47,küçük,text,What is the name of the hamam?,['cağaloğlu'],cagaloglu,0,1,3.1238815784454346
+448,tr,q42,c47,küçük,num,Hamam hangi yıl kurulmuş?,[1741],1741,1,1,3.0436906814575195
+448,en,q42,c47,küçük,num,In which year was the hamam founded?,[1741],1741,1,1,3.0486059188842773
+448,tr,q43,c48,büyük,text,Hangi şehrin adı yazıyor?,['istanbul'],istanbul,1,1,2.9113166332244873
+448,en,q43,c48,büyük,text,Which city name is written?,['istanbul'],istanbul,1,1,2.9231154918670654
+448,tr,q44,c49,büyük,num,Soslu mısır kaç lira?,[14],14,1,1,2.957012176513672
+448,en,q44,c49,büyük,num,How much is the soslu mısır?,[14],14.00,1,1,3.098628282546997
+448,tr,q45,c49,büyük,num,Elit karışık kaç lira?,[25],25,1,1,2.9606661796569824
+448,en,q45,c49,büyük,num,How much is the elit karışık?,[25],25.00,1,1,3.164553642272949
+448,tr,q46,c50,küçük,num,Yaprak kayısı kaç lira?,[27.9],2.75,0,0,3.060753107070923
+448,en,q46,c50,küçük,num,How much is the yaprak kayısı?,[27.9],2.75,0,0,3.0592055320739746
+448,tr,q47,c00,küçük,text,Tabelada hangi ilçe yazıyor?,['esenler'],istanbul,0,0,2.918086290359497
+448,en,q47,c00,küçük,text,Which district is written on the sign?,['esenler'],istanbul,0,0,2.924471378326416
+448,tr,q48,c00,küçük,text,Askı ilanı başlangıç tarihi ne?,['26.08.2020'],23.05.2020,0,0,3.3029606342315674
+448,en,q48,c00,küçük,text,What is the start date of the notice?,['26.08.2020'],24.09.2020,0,0,3.3228440284729004
+448,tr,q49,c06,küçük,text,Yön tabelasında ne yazıyor?,['gondol'],fordol,0,0,2.97735595703125
+448,en,q49,c06,küçük,text,What does the direction sign say?,['gondol'],unanswerable,0,0,3.0243923664093018
+448,tr,q50,c08,küçük,text,Panonun başlığı ne?,['kurtuluş yolu'],kurtuluş yolu,1,1,3.040036678314209
+448,en,q50,c08,küçük,text,What is the title of the board?,['kurtuluş yolu'],kurtuluş yolu,1,1,3.038498878479004
+448,tr,q51,c14,küçük,text,Restoranın adı ne?,['saklı ev'],sakli ev,0,1,3.0081920623779297
+448,en,q51,c14,küçük,text,What is the name of the restaurant?,['saklı ev'],sakli ev,0,1,3.033341646194458
+448,tr,q52,c42,büyük,text,Kafenin adı ne?,"[""robert's coffee"", 'roberts coffee']",robert's coffee,1,1,3.036766767501831
+448,en,q52,c42,büyük,text,What is the name of the cafe?,"[""robert's coffee"", 'roberts coffee']",robert's coffee,1,1,3.037810802459717
+448,tr,q53,c33,küçük,text,Mavi tabelada ne yazıyor?,['adsl'],adsl,1,1,2.9527394771575928
+448,en,q53,c33,küçük,text,What does the blue sign say?,['adsl'],adsl,1,1,2.946983814239502
