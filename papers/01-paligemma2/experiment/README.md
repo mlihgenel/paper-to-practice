@@ -1,6 +1,8 @@
 # Deney: Türkçe tabelalar ve fişlerde PaliGemma 2 (224 ile 448 piksel)
 
-[![Colab'da aç](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wL1xt4rzYNZ8w3tCMfDH7slQWwOQ7ezJ)
+[![Colab'da aç](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlihgenel/yz50-research/blob/main/papers/01-paligemma2/experiment/paligemma2_experiment.ipynb)
+
+Çalıştırılmış hali (tüm çıktılarıyla): [Google Colab](https://colab.research.google.com/drive/1wL1xt4rzYNZ8w3tCMfDH7slQWwOQ7ezJ)
 
 Makale, metin okuyan görevlerin yüksek çözünürlükten kazandığını söylüyor. Bu deney aynı soruyu makalenin bakmadığı bir veride, Türkiye'de çekilmiş tabela ve etiket fotoğraflarında test ediyor. Kullanılan iki model `google/paligemma2-3b-mix-224` ve `google/paligemma2-3b-mix-448`. İkisi de 3B, aradaki tek fark görüntü çözünürlüğü (256 ve 1.024 görüntü tokenı).
 
@@ -54,7 +56,7 @@ Tüm sayılar ve örnekler: [`results/summary.md`](results/summary.md)
 3. Notebook'u Colab'da aç, *Çalışma zamanı → T4 GPU* seç. Token'ı 🔑 *Secrets* bölümüne `HF_TOKEN` adıyla ekle ve "Notebook access"i aç.
 4. *Tümünü çalıştır*. Toplam ~25 dakika sürer, sonunda sonuçlar zip olarak iner.
 
-Görseller sırayla `tabela.zip` (Colab'a yüklenirse), GitHub (`GITHUB_RAW` tanımlıysa) ya da Wikimedia Commons'tan alınır. Wikimedia çok istek gelince 429 hatası verebiliyor. Bu durumda `data/images/` klasörünü `tabela.zip` olarak sıkıştırıp Colab'a yüklemek yeterli.
+Notebook görselleri bu repodan (`data/images/`) indirir. Ulaşılamazsa Wikimedia Commons'a geçer.
 
 ## Dosyalar
 
