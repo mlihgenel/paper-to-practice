@@ -37,8 +37,8 @@ Puanlama iki türlü yapıldı. **Katı** puanda Türkçe harfler birebir doğru
 Öne çıkan gözlemler:
 
 - **Uydurma:** 224 okuyamadığı yerde akıcı ama yanlış metin yazıyor. Örnekler: "29 Mayıs 1453" → "20 Mayıs 1938", "Aydın Büyükşehir" → "Kızılay Belediyesi", Londra'ya 2.502 km yerine 895 km. ([görsel](../figures/original/galata-ocr.png))
-- **Türkçe soru daha iyi:** 448'de katı puanla Türkçe soru %46, İngilizce soru %37. İngilizce soruda model cevabı çeviriyor ("sigara" → "smoking") ve daha sık "cevaplanamaz" diyor.
-- **Harf kaybı:** Model `ocr`'da Türkçe harfleri tutuyor, soru-cevapta düşürüyor ("acil cikis", "cinarcik"). Metni doğru bulduğu 14 cevabın sadece 3'ünde harfler doğru.
+- **Türkçe soru, İngilizce soru:** 448'de katı puanla Türkçe soru %46, İngilizce soru %37. Ama Türkçenin kazandığı 5 sorudan 3'ü puanlamadan geliyor: 1'inde model cevabı çeviriyor ("sigara" → "smoking"), 2'sinde sadece harf kaybı var. Esnek puanla iki dil neredeyse eşit (36'ya 34 soru). İngilizce soruda model daha sık "cevaplanamaz" diyor (5'e 2).
+- **Harf kaybı:** Model `ocr`'da Türkçe harfleri tutuyor, soru-cevapta düşürüyor ("acil cikis", "cinarcik"). Metni doğru bulduğu 14 cevabın sadece 3'ünde harfler doğru. Soru-cevaptaki 216 cevabın hiçbirinde büyük harf yok, `ocr` ise büyük/küçük harfi koruyor. Bu, soru-cevap çıktısının normalize edildiğine işaret ediyor. ([görsel](../figures/original/same-sign-two-prompts.png))
 - **Fiş hataları:** 224 binlik ayracını ondalık sanıyor (230,000 → "230.00"). 448'in hataları çoğunlukla tek rakam.
 
 Tüm sayılar ve örnekler: [`results/summary.md`](results/summary.md)

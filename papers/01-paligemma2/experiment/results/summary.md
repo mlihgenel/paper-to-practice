@@ -59,3 +59,19 @@ Uydurma: 224 c26 olmayan cümle uydurdu ("Sigara içenler uyarıdan ötekileşir
 EN altyazılar görseldeki yazıyı okuyor ("hamsi 4 mtl", "beypazarı kurusu", "Şehir Merkezi"); TR altyazılar genel ya da yanlış:
 c31 448 TR "Invertebrate food is for sale in a red bucket." (TR istendi, EN + yanlış), c46 448 TR "Ağzında mavi bir şey tutan bir kadın" (yanlış),
 c23 224 TR "In this image we can see a sign board..." (tamamen İngilizce), c06 TR "bir lion statue"/"golden statue" karışık.
+
+## Büyük/küçük harf testi (2026-10-06)
+Soru: QA'daki harf kaybı, cevapların normalize edilmesinden mi geliyor?
+- QA: 216 cevabın (2 model × 2 dil × 54) hiçbirinde büyük harf yok.
+- OCR (448): büyük/küçük harf altın metinle birebir (c01 11/8, c02 9/0, c03 51/0, c30 150/0 büyük/küçük). Küçük harfli c26'da Türkçe harf 25/25 doğru, yani küçük Türkçe harf tanıma sorunu yok.
+- Silme tam değil: 448 TR "marmaranın inisi" ı'yı koruyor.
+Sonuç: QA çıktısı küçük harfe ve büyük ölçüde ASCII'ye normalize. VQA tarzı cevap normalizasyonuyla tutarlı (eğitim verisi görülmediği için kesin değil).
+
+## TR–EN farkının dökümü (katı puan)
+448: TR doğru & EN yanlış 5, tersi 0.
+- q24 "sigara" → EN "smoking" (çeviri, okuma doğru)
+- q34 "alabalık" → EN "alabalik", q40 → EN "askeri guvenlik bolgesi girilmez" (harf kaybı, esnek=1)
+- q03 → EN "sokak", q06 → EN "unanswerable" (gerçek fark)
+Esnek: TR 36/54, EN 34/54.
+224: TR doğru & EN yanlış 6 (q20 "studio", q22 harf, q24 "smoking", q29 sayı "2", q34 "alabama", q40 "gvenlik"), tersi 1 (q19 TR "balaban emek").
+

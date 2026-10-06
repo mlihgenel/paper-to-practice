@@ -5,7 +5,7 @@
 | **Yazarlar** | Steiner, A., Pinto, A. S., Tschannen, M., et al. (Google DeepMind) |
 | **Yayın** | Aralık 2024 · [arXiv:2412.03555](https://arxiv.org/abs/2412.03555) · CC BY 4.0 |
 | **Konu** | Görsel-dil modelleri (VLM), çözünürlük ve model boyutu, fine-tuning |
-| **Yazı** | [Her Şey Metin: PaliGemma 2 Nasıl Çalışıyor, Neyi Gösteriyor, Neyi Göstermiyor?](article/article.md) ([PDF](article/article.pdf)) |
+| **Yazı** | [Göz mü, Beyin mi? Bir Görsel-Dil Modeline Nereden Yatırım Yapmalı?](article/article.md) ([PDF](article/article.pdf)) |
 | **Deney** | [Türkçe tabelalar ve fişlerde 224 ile 448 piksel](experiment/) |
 
 ## Kısaca
@@ -20,7 +20,7 @@
 
 1. **Göz, ince ayrıntıda fark yaratıyor.** Aynı 3B modelde 224'ten 448'e geçince küçük yazıda doğruluk %13'ten %39'a, fişlerde toplam tutarda %46'dan %84'e çıkıyor. Bedeli soru başına yaklaşık 3,4 kat süre.
 2. **Küçük göz okuyamadığı yerde uyduruyor.** 224, Galata kitabesindeki "29 Mayıs 1453"ü "20 Mayıs 1938" diye okuyor.
-3. **Türkçe soru daha iyi sonuç veriyor, ama Türkçe harfler kayboluyor.** Model `ocr` modunda Türkçe harflerin %94'ünü doğru yazıyor, soru-cevapta ise çoğunu düşürüyor ("acil cikis").
+3. **Model Türkçe harfleri görüyor, soru-cevapta siliyor.** `ocr` modunda Türkçe harflerin %94'ünü doğru yazıyor. Soru-cevapta ise 216 cevabın hiçbirinde büyük harf yok ve harflerin çoğu düşüyor ("acil cikis"). "Türkçe soru daha iyi" farkının çoğu da buradan geliyor: Harf farkı görmezden gelinince iki dil neredeyse eşit (36'ya 34 soru).
 
 Ayrıntılar: [experiment/](experiment/)
 
@@ -30,7 +30,7 @@ Ayrıntılar: [experiment/](experiment/)
 | --- | --- |
 | [`paper.pdf`](paper.pdf) | Makale |
 | [`notes.md`](notes.md) | Bölüm bölüm okuma notları |
-| [`article/article.md`](article/article.md) | Yayımlanan yazı (~1.900 kelime) |
+| [`article/article.md`](article/article.md) | Yayımlanan yazı (~2.700 kelime) |
 | [`article/article-long.md`](article/article-long.md) | Yazının uzun hali (~4.400 kelime, yedi yeni görevin hepsi ayrıntılı) |
 | [`figures/paper/`](figures/paper/) | Makaleden alınan figür ve tablolar (CC BY 4.0) |
 | [`figures/original/`](figures/original/) | Bu çalışma için üretilen görseller |

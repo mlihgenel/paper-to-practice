@@ -6,7 +6,7 @@ Yapay zekâ makaleleri üzerine Türkçe incelemeler. Her inceleme üç katmanda
 
 | # | Makale | Analiz | Deney | Öne çıkan bulgu |
 | --- | --- | --- | --- | --- |
-| 01 | [PaliGemma 2](papers/01-paligemma2/)<br>Google DeepMind, 2024 | [Her Şey Metin](papers/01-paligemma2/article/article.md) | [224 ile 448 piksel, Türkçe tabelalar](papers/01-paligemma2/experiment/) | Yüksek çözünürlük küçük yazıda doğruluğu %13'ten %39'a çıkarıyor. Düşük çözünürlükte model okuyamadığı metni uyduruyor. |
+| 01 | [PaliGemma 2](papers/01-paligemma2/)<br>Google DeepMind, 2024 | [Göz mü, Beyin mi?](papers/01-paligemma2/article/article.md) | [224 ile 448 piksel, Türkçe tabelalar](papers/01-paligemma2/experiment/) | Yüksek çözünürlük küçük yazıda doğruluğu %13'ten %39'a çıkarıyor. Düşük çözünürlükte model okuyamadığı metni uyduruyor. |
 
 ## Yaklaşım
 
