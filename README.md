@@ -1,4 +1,4 @@
-# YZ50 Research
+# Paper to Practice
 
 Yapay zekâ makaleleri üzerine Türkçe incelemeler. Her inceleme üç katmandan oluşur: makalenin bölüm bölüm okunması, makaleyi okumamış bir okur için yazılmış eleştirel bir analiz ve mümkün olduğunda makalenin iddialarını yeni bir veri üzerinde sınayan tekrarlanabilir bir deney.
 
