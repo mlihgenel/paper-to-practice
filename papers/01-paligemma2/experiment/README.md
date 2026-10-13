@@ -1,6 +1,6 @@
 # Deney: Türkçe tabelalar ve fişlerde PaliGemma 2 (224 ile 448 piksel)
 
-[![Colab'da aç](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlihgenel/yz50-research/blob/main/papers/01-paligemma2/experiment/paligemma2_experiment.ipynb)
+[![Colab'da aç](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mlihgenel/paper-to-practice/blob/main/papers/01-paligemma2/experiment/paligemma2_experiment.ipynb)
 
 Çalıştırılmış hali (tüm çıktılarıyla): [Google Colab](https://colab.research.google.com/drive/1wL1xt4rzYNZ8w3tCMfDH7slQWwOQ7ezJ)
 

@@ -137,7 +137,7 @@ Harf farkları görmezden gelinince iki dil neredeyse eşitleniyor: 54 sorunun 3
 
 Türkçe resim açıklamaları ise gerçekten zayıf. Hamsi kovası için Türkçe açıklama istedim, cevap İngilizce ve yanlış geldi: "Invertebrate food is for sale in a red bucket" ("Kırmızı kovada omurgasız yiyecek satılıyor"). Aynı resmin İngilizce açıklaması ise etiketi bile okuyordu: "hamsi 4 mtl". Makale çok dilli açıklamayı "beyin isteyen" görevler arasında sayıyordu. 3B'nin Türkçede bocalaması buna uyuyor. Ama 10B'yi ücretsiz GPU'da çalıştıramadığım için bu bir doğrulama değil, sadece uyumlu bir gözlem.
 
-**Sınırlar:** 54 soruda her soru yaklaşık 2 puan ediyor, yani tabelalardaki birkaç puanlık farklar kesin değil. Fiş sonucu ise sağlam: 448'in doğru, 224'ün yanlış bildiği 23 fiş var, tersi sadece 2. Soruları ve doğru cevapları ben yazdım. Esnek puanda 448'in Türkçe sorulardaki başarısı %46'dan %67'ye çıkıyor, yani hataların önemli bir kısmı okumadan değil harflerden geliyor. Notebook ve veri seti: [Colab notebook](https://colab.research.google.com/drive/1wL1xt4rzYNZ8w3tCMfDH7slQWwOQ7ezJ).
+**Sınırlar:** 54 soruda her soru yaklaşık 2 puan ediyor, yani tabelalardaki birkaç puanlık farklar kesin değil. Fiş sonucu ise sağlam: 448'in doğru, 224'ün yanlış bildiği 23 fiş var, tersi sadece 2. Soruları ve doğru cevapları ben yazdım. Esnek puanda 448'in Türkçe sorulardaki başarısı %46'dan %67'ye çıkıyor, yani hataların önemli bir kısmı okumadan değil harflerden geliyor. Kod, veri seti ve sonuçların hepsi açık: [GitHub'daki deney klasörü](https://github.com/mlihgenel/paper-to-practice/tree/main/papers/01-paligemma2/experiment) ve doğrudan çalıştırmak için [Colab notebook](https://colab.research.google.com/drive/1wL1xt4rzYNZ8w3tCMfDH7slQWwOQ7ezJ).
 
 ## Beni ikna etmeyen noktalar
 
@@ -163,6 +163,8 @@ Açık ağırlıklı modeller sayesinde makalenin göstermediği deneylerin bir 
 ---
 
 **Kaynak:** Steiner, A., Pinto, A. S., Tschannen, M., et al. (2024). *PaliGemma 2: A Family of Versatile VLMs for Transfer.* arXiv:2412.03555. [arxiv.org/abs/2412.03555](https://arxiv.org/abs/2412.03555)
+
+**Deneyin kodu ve verisi:** [github.com/mlihgenel/paper-to-practice](https://github.com/mlihgenel/paper-to-practice/tree/main/papers/01-paligemma2)
 
 **İleri okuma:**
 - [Introducing PaliGemma 2 — Google Developers Blog](https://developers.googleblog.com/en/introducing-paligemma-2-powerful-vision-language-models-simple-fine-tuning/)
